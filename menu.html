@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <title>Menu</title>
-    <meta charset="utf-8" >
-    <meta name="author" content="Fariza FARADJI et Celine Boukersi" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Le Délice</title>
+    <meta name="author" content="Fariza Faradji, Celine Boukersi et Imene Khelil">
     <meta name="description" content="Le site web de notre restaurant">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico">
@@ -13,9 +14,9 @@
 <body>
     <header>
         <figure>
-            <img src="images/logo.jpeg" alt="erreur dans l'affichage " id="logo" />
-            <!--Alt : texte alternatif si erreur d'affichage-->
-            <figcaption></figcaption> <!--Pour ajouter une legende a l'image-->
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="erreur dans l'affichage" id="logo" />
+            </a>
         </figure>
         <nav>
             <ul>
@@ -31,125 +32,206 @@
                 <li>
                     <a href="reserv.html">Reservation</a>
                 </li>
+                <li>
+                    <a href="avis.html">Avis</a>
+                </li>
+                <li>
+                    <a href="actualites.html">Actualitées</a>
+                </li>
+
             </ul>
         </nav>
-        <h1><i>Le Menu</i> </h1>
+        <h1>Le menu</h1>
     </header>
     <main>
         <section>
-            <h2>Menu matin :</h2>
-            <figure>
-                <img src="images/menuMatin.jpeg" alt="">
-                <figcaption>Figure 1:Nos specialitées du matin</figcaption>
-            </figure>
-            <p>Commencez votre journée du bon pied avec nos délicieux petits déjeuners ! Entre classiques indémodables
-                et créations gourmandes, nos options fraîches et savoureuses sont pensées pour ravir toutes les
-                papilles. Que vous soyez adepte d'un café rapide ou d'un repas <strong>complet</strong> pour bien
-                démarrer, nous avons ce qu'il vous faut.</p>
-            <table class="menuMatin">
-                <thead>
+            <h2>Nos offres adaptées </h2>
+            <article>
+                <h3>Déjeuner :</h3>
+                <figure>
+                    <img src="images/menu-matin.jpeg" alt="erreur lors du chargement de l'image" />
+                    <figcaption>Figure 1:Nos specialitées du déjeuner</figcaption>
+                </figure>
+
+
+                <p>Commencez votre journée du bon pied avec nos délicieux petits déjeuners ! Entre classiques
+                    indémodables
+                    et créations gourmandes, nos options fraîches et savoureuses sont pensées pour ravir toutes les
+                    papilles. Que vous soyez adepte d'un café rapide ou d'un repas <strong>complet</strong> pour bien
+                    démarrer, nous avons ce qu'il vous faut.</p>
+                <table>
                     <tr>
                         <th>Option</th>
                         <th>Plat</th>
                         <th>Prix</th>
                         <th>Description</th>
                     </tr>
-                </thead>
-                <tbody>
                     <tr>
-                        <td rowspan="2">Vegetarien</td>
-                        <td>Soupe</td>
+                        <td rowspan="3">Vegetarien</td>
+                        <td>Soupe aux champignons</td>
                         <td>11</td>
-                        <td>Une soupe au champignons</td>
+                        <td>Crémeuse et parfumée</td>
                     </tr>
                     <tr>
-                        <td>Legumes</td>
+
+                        <td>Légumes grillés</td>
                         <td>12</td>
-                        <td>Melange de légumes</td>
+                        <td>Mélange de légumes frais de saison</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">Viande</td>
+                        <td>Salade César</td>
+                        <td>14</td>
+                        <td>Salade fraîche avec croutons et fromage</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">Viande</td>
+                        <td>Omelette au jambon</td>
+                        <td>14</td>
+                        <td>Omelette moelleuse avec jambon fumé</td>
+                    </tr>
+                    <tr>
+                        <td>Pain perdu</td>
+                        <td>10</td>
+                        <td>Recette maison avec sirop d'érable</td>
+                    </tr>
+                    <tr>
                         <td>Poulet et purée</td>
                         <td>25</td>
-                        <td>Du poulet avec de la purée et sauce tomate</td>
+                        <td>Poulet tendre avec purée et sauce tomate</td>
                     </tr>
                     <tr>
-                        <td>Frite et scalope</td>
+                        <td>Escalope et frites</td>
                         <td>24</td>
-                        <td>Sans description</td>
+                        <td>Escalope panée servie avec frites maison</td>
                     </tr>
-                </tbody>
-            </table>
-        </section>
-        <section>
-            <h2>Menu soir :</h2>
-            <figure>
-                <img src="images/menuSoir.jpeg" alt="">
-                <figcaption>Figure 2 :Nos specialités du soir</figcaption>
-            </figure>
-            <p>Pour une soirée mémorable, découvrez notre menu du soir, où saveurs raffinées et produits de saison se
-                rencontrent. Que ce soit pour un dîner en tête-à-tête, entre amis ou en famille, notre équipe se fera un
-                plaisir de vous offrir une expérience culinaire unique et chaleureuse.</p>
-            <table border="1">
-                <thead>
+                    <tr>
+                        <td>Steak grillé</td>
+                        <td>30</td>
+                        <td>Servi avec légumes et sauce au poivre</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3>Menu soir :</h3>
+                <figure>
+                    <img src="images/menu-soir.jpeg" alt="Nos spécialités du soir" />
+                    <figcaption>Figure 2: Nos spécialités du soir</figcaption>
+                </figure>
+
+                <p>Pour une soirée mémorable, découvrez notre menu du soir, où saveurs raffinées et produits de saison
+                    se
+                    rencontrent.</p>
+
+                <table>
                     <tr>
                         <th>Option</th>
                         <th>Plat</th>
-                        <th>Prix</th>
+                        <th>Prix (€)</th>
                         <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="2">Vegetarien</td>
-                        <td>Soupe</td>
-                        <td>11</td>
-                        <td>Une soupe au champignons</td>
+
                     </tr>
                     <tr>
-                        <td>Legumes</td>
-                        <td>12</td>
-                        <td>Melange de légumes</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">Viande</td>
-                        <td>Poulet et purée</td>
+                        <td>Viande</td>
+                        <td>Entrecôte</td>
                         <td>25</td>
-                        <td>Du poulet avec de la purée et sauce tomate</td>
+                        <td>Servie avec frites et salade</td>
                     </tr>
                     <tr>
-                        <td>Frite et scalope</td>
-                        <td>24</td>
-                        <td>Sans description</td>
+                        <td>Végétarien</td>
+                        <td>Risotto aux champignons</td>
+                        <td>18</td>
+                        <td>Crémeux et parfumé</td>
                     </tr>
                     <tr>
                         <td>Tout</td>
                         <td>Bourak</td>
-                        <td>2 (/pc)</td>
-                        <td>Petite Bouraks avec la viande-hachée</td>
+                        <td>2 / pièce</td>
+                        <td>Petite Bourak farcie à la viande hachée</td>
                     </tr>
-                </tbody>
-            </table>
+                    <tr>
+                        <td>Poisson</td>
+                        <td>Saumon grillé</td>
+                        <td>22</td>
+                        <td>Servi avec sauce citron et légumes</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <h3>Boissons :</h3>
+                <p>Découvrez notre carte des boissons soigneusement élaborée pour accompagner vos repas et satisfaire
+                    toutes vos envies. Que vous soyez amateur de boissons chaudes, friand de cocktails créatifs ou
+                    adepte de jus frais, nous avons quelque chose pour vous.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Catégorie</th>
+                            <th>Boisson</th>
+                            <th>Prix (€)</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">Chaudes</td>
+                            <td>Café</td>
+                            <td>3</td>
+                            <td>Expresso ou allongé</td>
+                        </tr>
+                        <tr>
+                            <td>Thé</td>
+                            <td>4</td>
+                            <td>Thé vert ou noir</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolat chaud</td>
+                            <td>5</td>
+                            <td>Chocolat crémeux et onctueux</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Froides</td>
+                            <td>Soda</td>
+                            <td>3</td>
+                            <td>Coca, Sprite, Fanta...</td>
+                        </tr>
+                        <tr>
+                            <td>Jus de fruits</td>
+                            <td>4</td>
+                            <td>Orange, pomme, mangue</td>
+                        </tr>
+                        <tr>
+                            <td>Eau minérale</td>
+                            <td>2</td>
+                            <td>Plate ou gazeuse</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
         </section>
     </main>
+
     <footer>
-        <h2>Nous retrouver et soutenir :</h2>
         <section>
+            <h2>Nous retrouver et soutenir :</h2>
             <article>
                 <h3>Réseaux Sociaux :</h3>
                 <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><strong>Contact pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li>
+                        <a
+                            href="https://www.facebook.com/p/Restaurant-le-D%C3%A9lice-100064755799699/?_rdr">Facebook</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/lecafedesdelices_paris/?hl=fr">Instagram</a></li>
+                    <li><strong>Contacts pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li>Pour plus d'informations de contacts : <a href="contact.html#contacts">Contacts</a></li>
                 </ul>
             </article>
             <article>
                 <h3>Newsletter</h3>
-                <p><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></p>
+                <span><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></span>
             </article>
             <article>
                 <h3>Copyright :</h3>
-                <p>© 2025 Le Délice Gourmet. Tous droits réservés.</p>
+                <span>© 2025 Le Délice Gourmet. Tous droits réservés.</span>
             </article>
         </section>
     </footer>

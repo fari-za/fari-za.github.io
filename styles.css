@@ -9,6 +9,9 @@ nav {
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+
 }
 
 nav ul {
@@ -17,6 +20,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+
 }
 
 nav ul li {
@@ -38,10 +42,12 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: #444;
 }
 
 h3 {
     font-size: 1.5em;
+    color: #555;
 }
 
 main {

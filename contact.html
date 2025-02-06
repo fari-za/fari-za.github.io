@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <title>Contact</title>
-    <meta charset="utf-8" >
-    <meta name="author" content="Fariza FARADJI et Celine Boukersi" >
+    <meta charset="utf-8">
+    <meta name="author" content="Fariza Faradji, Celine Boukersi et Imene KHELIL">
     <meta name="description" content="Le site web de notre restaurant">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico">
@@ -13,9 +13,9 @@
 <body>
     <header>
         <figure>
-            <img src="images/logo.jpeg" alt="erreur dans l'affichage" id="logo" />
-            <!--Alt : texte alternatif si erreur d'affichage-->
-            <figcaption></figcaption> <!--Pour ajouter une legende a l'image-->
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="erreur dans l'affichage" id="logo" />
+            </a>
         </figure>
         <nav>
             <ul>
@@ -31,49 +31,61 @@
                 <li>
                     <a href="reserv.html">Reservation</a>
                 </li>
+                <li>
+                    <a href="avis.html">Avis</a>
+                </li>
+                <li>
+                    <a href="actualites.html">Actualitées</a>
+                </li>
+
             </ul>
         </nav>
         <h1>Contactez-nous facilement</h1>
     </header>
     <main>
         <section>
-            <h2>Informations Pratiques :</h2>
-            <ul>
-                <li><strong>Adresse : </strong>25 Rue des Délices, 75001 Paris</li>
-                <li><strong>Téléphone : </strong>01 23 45 67 89</li>
-                <li><strong>E-mail : </strong>contact@ledelicegourmet.fr</li>
-                <li>
-                    <strong>Horaires d'Ouverture :</strong>
-                    <ul>
-                        <li>Lundi à samedi : 12h00 – 23h00</li>
-                        <li>Dimanche : 10h00 – 15h00 (Brunch uniquement)</li>
-                    </ul>
-                </li>
-            </ul>
-            <figure>
-                <img src="images/horraire.jpeg" alt="erreur lors de chargement de l'image">
-            </figure>
-            <figcaption> Image de nos horraire</figcaption>
+            <h2>Informations Pratiques </h2>
+            <article id="contacts">
+                <h3>Contacts :</h3>
+                <ul>
+                    <li><strong>Adresse : </strong>25 Rue des Délices, 75001 Paris</li>
+                    <li><strong>Téléphone : </strong>01 23 45 67 89</li>
+                    <li><strong>E-mail : </strong>contact@ledelicegourmet.fr</li>
+                    <li>
+                        <strong>Horaires d'Ouverture :</strong>
+                        <ul>
+                            <li>Lundi à samedi : 12h00 – 23h00</li>
+                            <li>Dimanche : 10h00 – 15h00 (Brunch uniquement)</li>
+                        </ul>
+                    </li>
+                </ul>
+                <figure>
+                    <img src="images/horraire.jpeg" alt="erreur lors de chargement de l'image" />
+                </figure>
+            </article>
         </section>
     </main>
     <footer>
-        <h2>Nous retrouver et soutenir :</h2>
         <section>
+            <h2>Nous retrouver et soutenir :</h2>
             <article>
                 <h3>Réseaux Sociaux :</h3>
                 <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><strong>Contact pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li><a
+                            href="https://www.facebook.com/p/Restaurant-le-D%C3%A9lice-100064755799699/?_rdr">Facebook</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/lecafedesdelices_paris/?hl=fr">Instagram</a></li>
+                    <li><strong>Contacts pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li>Pour plus d'informations de contacts : <a href="contact.html#contacts">Contacts</a></li>
                 </ul>
             </article>
             <article>
                 <h3>Newsletter</h3>
-                <p><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></p>
+                <span><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></span>
             </article>
             <article>
                 <h3>Copyright :</h3>
-                <p>© 2025 Le Délice Gourmet. Tous droits réservés.</p>
+                <span>© 2025 Le Délice Gourmet. Tous droits réservés.</span>
             </article>
         </section>
     </footer>

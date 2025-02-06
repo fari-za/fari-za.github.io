@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <title>Accueil</title>
-    <meta charset="utf-8"/>
-    <meta name="author" content="Fariza FARADJI et Celine Boukersi"/>
-    <meta name="description" content="Le site web de notre restaurant"/>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="icon" href="images/favicon.ico"/> 
+    <meta charset="utf-8" />
+    <meta name="author" content="Fariza Faradji, Celine Boukersi et Imene KHELIL" />
+    <meta name="description" content="Le site web de notre restaurant" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
+
 <body>
+    <!-- Menu latéral qui doit toujours visible à droite-->
+    <nav id="side-menu">
+        <ul>
+            <li>
+                <a href="#section1">Nous choisir</a>
+            </li>
+            <li>
+                <a href="#specialitees">specialitées</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#section3"></a>
+            </li>
+        </ul>
+    </nav>
     <header>
         <figure>
-            <img src="images/logo.jpeg" alt="erreur dans l'affichage" id="logo"/>
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="erreur dans l'affichage" id="logo" />
+            </a>
         </figure>
         <nav>
             <ul>
@@ -27,64 +48,96 @@
                 <li>
                     <a href="reserv.html">Reservation</a>
                 </li>
+                <li>
+                    <a href="avis.html">Avis</a>
+                </li>
+                <li>
+                    <a href="actualites.html">Actualitées</a>
+                </li>
+
             </ul>
         </nav>
         <h1>Bienvenue à notre restaurant</h1>
     </header>
     <main>
-        <section>
-            <h2>Ce qui nous rend unique :</h2>
-            <ol>
-                <li>Produits <i>frais</i> et <i>locaux.</i></li>
-                <li>Recettes maison.</li>
-                <li>Un service convivial et rapide.</li>
-            </ol>
+        <section id="section1">
+            <h2>Pourquoi choisir notre restaurant ? </h2>
+            <ul>
+                <li>Des produits <strong>frais</strong> et <strong>de saison</strong>, sélectionnés avec soin.</li>
+                <li>Des recettes <em>faites maison</em>, inspirées des traditions gastronomiques.</li>
+                <li>Un cadre chaleureux et une ambiance conviviale.</li>
+                <li>Un service rapide et attentif à vos besoins.</li>
+            </ul>
+
             <figure>
-                <img src="images/specialite.jpeg" alt="erreur chargement de l'image"/>
+                <img src="images/specialite.jpeg" alt="erreur chargement de l'image" />
                 <figcaption>Figure 1 :image d'un repas d'un de nos client</figcaption>
             </figure>
         </section>
-        <section>
-            <h2>Chez nous</h2>
-            <h3>Nos spécialités du moment :</h3>
+        <section id="section2">
+            <h2>Nos specialitées et nos services</h2>
+            <article id="specialitees">
+                <h3>Nos spécialités du moment :</h3>
+                <p>Nous vous invitons à découvrir nos plats phares, élaborés par notre chef :</p>
+                <ul>
+                    <li>Risotto de homard au citron confit, un mélange subtil de saveurs marines et acidulées.</li>
+                    <li>Tournedos de filet de bœuf, accompagné d’une sauce au foie gras maison.</li>
+                    <li>Tagine d’agneau aux pruneaux et amandes, un classique revisité avec amour.</li>
+                </ul>
+            </article>
+            <article id="services">
+                <h3>Nos services :</h3>
+                <p>Nous vous proposons plusieurs expériences culinaires adaptées à vos envies :</p>
+                <ul>
+                    <li><strong>Dîner romantique</strong> : une atmosphère intime et des plats raffinés.</li>
+                    <li><strong>Brunch du week-end</strong> : un moment de gourmandise pour bien commencer la journée.
+                    </li>
+                    <li><strong>Commande à emporter</strong> : savourez nos plats chez vous en toute tranquillité.</li>
+                </ul>
+                <figure>
+                    <img src="images/table.jpeg" alt="erreur chargement image" />
+                    <figcaption>Figure 2: photo dans notre restaurant</figcaption>
+                </figure>
+            </article>
+        </section>
+        <section id="section3">
+            <h2>Nos événements</h2>
+            <p>Nous organisons régulièrement des soirées à thème et des événements gastronomiques :</p>
             <ul>
-                <li>Risotto de homard au citron confit </li>
-                <li>Tournedos de filet de bœuf accompagné de sa sauce au foie gras</li>
+                <li><strong>Soirée découverte</strong> : dégustation de vins et fromages.</li>
+                <li><strong>Soirée orientale</strong> : spécialités du Maghreb et ambiance musicale.</li>
+                <li><strong>Atelier culinaire</strong> : apprenez à cuisiner avec notre chef.</li>
             </ul>
         </section>
-        <section>
-            <h3>Nos services :</h3>
-            <ul>
-                <li>Dîner romantique</li>
-                <li>Brunch du week-end</li>
-                <li>Commande à emporter</li>
-            </ul>
-            <figure>
-                <img src="images/table.jpeg" alt="erreur chargement image"/>
-                <figcaption>Figure 2: photo dans notre restaurant</figcaption>
-            </figure>
-        </section>
+        <a href="#">Retour en haut de page</a>
+
     </main>
+
     <footer>
         <section>
             <h2>Nous retrouver et soutenir :</h2>
             <article>
                 <h3>Réseaux Sociaux :</h3>
                 <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><strong>Contact pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/p/Restaurant-le-D%C3%A9lice-100064755799699/?_rdr">Facebook</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/lecafedesdelices_paris/?hl=fr">Instagram</a></li>
+                    <li><strong>Contacts pour réserver :</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li>Pour plus d'informations de contacts : <a href="contact.html#contacts">Contacts</a></li>
                 </ul>
             </article>
             <article>
                 <h3>Newsletter</h3>
-                <p><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></p>
+                <span><i>Inscrivez-vous pour nos offres spéciales ! <a href="">Newsletter</a></i></span>
             </article>
             <article>
                 <h3>Copyright :</h3>
-                <p>© 2025 Le Délice Gourmet. Tous droits réservés.</p>
+                <span>© 2025 Le Délice Gourmet. Tous droits réservés.</span>
             </article>
         </section>
     </footer>
+
 </body>
+
 </html>
